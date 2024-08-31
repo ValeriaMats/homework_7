@@ -1,0 +1,81 @@
+@import url(reset.css);
+
+
+.conteiner{
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.first-flex-container{
+    display: flex;
+    background-color: #F6FFD4;
+}
+.first-flex-container div{
+    width: 400px;
+    height: 400px;
+    outline: 1px solid black;
+}
+
+.second-flex-container{
+    display: flex;
+    background-color: #DAFBF7;
+}
+.second-flex-container-one>div{
+    width: 800px;
+    height: 200px;
+    outline: 1px solid black;
+}
+.second-flex-container-two>div{
+    width: 400px;
+    height: 133.333px;
+    outline: 1px solid black;
+    flex-direction: column;
+}
+
+.third-flex-container{
+    display: flex;
+    background-color: #F9E6F9;
+}
+.third-flex-container-one{
+    width: 400px;
+    height: 400px;
+    outline: 1px solid black;
+}
+.third-flex-container-two{
+    outline: 1px solid black;
+}
+.third-flex-container-two>div{
+    width: 800px;
+    height: 200px;
+}
+.third-flex-container-child{
+    display: flex;
+    outline: 1px solid black;
+    height: 200px;
+    width: 800px;
+}
+
+.row div{
+    outline: 1px solid black;
+    height: 100px;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
